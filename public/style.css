@@ -6,8 +6,7 @@ body {
 .title {
     font-size: 72px;
     color: rgb(255, 255, 255);
-    position: relative;
-    transform: translate(40%, 5%);
+    text-align: center;
 }
 section {
     display: flex;
@@ -15,9 +14,15 @@ section {
     flex-flow: wrap;
     width: 900px;
     height: max-content;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, -10%);
+    margin-left:auto;
+    margin-right:auto;
+}
+.add2cart {
+    display:flex;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
 }
 .cartitems {
     margin: 5px;
@@ -28,10 +33,16 @@ section {
     align-content: center;
     background-color: rgb(255, 255, 255);
     border-radius: 2px;
-    height: 225px;
+    height: 255px;
     width: 400px;
 }
 .cartitems p {
     padding-bottom: 10px;
     border-bottom: 1px dashed lightslategray;
+}
+button {
+    border: none;
+    border-radius: 2px;
+    padding: 2px 5px;
+    background: linear-gradient(rgb(255, 255, 255),rgb(212, 212, 212));
 }
